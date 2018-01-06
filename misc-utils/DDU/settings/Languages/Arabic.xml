@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DisplayDriverUninstaller ISO="ar-SA" Text="Arabic">
+	<!--
+		See file ' \Settings\Languages\_For translators - ReadMe.txt ' 	
+		for quick guide
+	-->
+
+	<frmMain Text="Display Driver Uninstaller (DDU)">
+		<btnCleanRestart>
+			<Text>
+				حذف تعريفات البطاقة ومن ثم اعادة تشغيل النظام
+			</Text>
+			<Tooltip>
+				حذف جميع التعريفات المتعلقة بالبطاقة ثم اعادة تشغيل الجهاز
+				(ينصح به بشدة)
+			</Tooltip>
+		</btnCleanRestart>
+		<btnClean>
+			<Text>حذف التعريف لكن بدون اعادة تشغيل النظام- قد يسبب المشاكل</Text>
+			<Tooltip>
+				حذف جميع التعريفات المتعلقة بالبطاقة لكن دون اعادة تشغيل النظام
+				(يمكن ان يتسبب بحدوث مشاكل مثل الشاشة السوداء
+			</Tooltip>
+		</btnClean>
+		<btnCleanShutdown>
+			<Text>حذف جميع تعريفات البطاقة الحالية ومن ثم ايقاف التشغيل</Text>
+			<Tooltip>
+				حذف جميع التعريفات المتعلقة بالبطاقة الحالية وإيقاف تشغيل الجهاز تمهيدا لتركيب بطاقة جديدة
+				(استخدم هذا الخيار في حال كنت ترغب بتركيب بطاقة جديدة)
+			</Tooltip>
+		</btnCleanShutdown>
+		<btnCleanGfeDownloads>
+			<Text>
+				حذف مجلد الكاش الخاص بتعريف بطاقة نفيديا جي-فورس
+				(ملاحظة: لن يتم حذف التعريفات)
+			</Text>
+			<Tooltip>
+				استخدم هذا الخيار لحذف مجلد الكاش من اجل تحرير بعض سعة التخزين
+			</Tooltip>
+		</btnCleanGfeDownloads>
+		<btnWuRestore>
+			<Text>ارجاع نظام التثبيت التلقائي للتعريفات إلى الوضع الافتراضي</Text>
+		</btnWuRestore>
+		<lblWinVersion>
+			<Text>نـظام التشغيــل الحالـــي</Text>
+		</lblWinVersion>
+		<lblDonate>
+			<Text>** هل أعجبتك الأداة؟ ؛ اذا ما رأيك بأن تقوم بالتبرع لنا من أجل التطوير</Text>
+		</lblDonate>
+		<lblLog>
+			<Text>التقــريـــر</Text>
+		</lblLog>
+		<lblSelectedGPU>
+			<Text>حدد الشركة المصنعة للبطاقة</Text>
+		</lblSelectedGPU>
+		<lblLanguage>
+			<Text>اختيار اللغـة</Text>
+		</lblLanguage>
+
+		<Label9>
+			<Text>مـلاحظـة : أيـة اضرار أو اخطاء قـد تلحـق بجهازك هي تحت مسؤوليتـك الخاصة فقـط .</Text>
+		</Label9>
+		<Label10>
+			<Text>ينصــح باستخــدام هـذه الاداة في الوضع الآمن</Text>
+		</Label10>
+
+		<lblUpdate>
+			<Text>التحقـق من التحديثات .....</Text>
+			<Text2>لا يوجد تحديث حاليا ؛ الأداة بآخر اصدار.</Text2>
+			<Text3>تم العثور على تحديث جديد! ؛ سينحـصر الدعم عن الاصدارات القديمـة تدريجيا بعكس الاصدارات الحديثة</Text3>
+			<Text4>لا يمكـن جلب التحديثات في الوقت الحالي !</Text4>
+		</lblUpdate>
+
+		<lblOffer>
+			<Text>عروض من شركائنا</Text>
+			<Tooltip>تستطيع ايقافها من قائمة الخيارات</Tooltip>
+		</lblOffer>
+
+		<OptionsMenuItem>
+			<Text>الخيارات</Text>
+		</OptionsMenuItem>
+		<InfoMenuItem>
+			<Text>معلومات</Text>
+		</InfoMenuItem>
+		<ExtendedLogMenuItem>
+			<Text>تقرير مفصل</Text>
+		</ExtendedLogMenuItem>
+		<LinksMenuItem>
+			<Text>الروابط</Text>
+		</LinksMenuItem>
+		<ToSMenuItem>
+			<Text>شروط الخدمة (ToS)</Text>
+		</ToSMenuItem>
+		<AboutMenuItem>
+			<Text>حول</Text>
+		</AboutMenuItem>
+		<TranslatorsMenuItem>
+			<Text>المترجمون</Text>
+		</TranslatorsMenuItem>
+		<VisitDDUHomeMenuItem>
+			<Text>زيارة الموقع الرسمي للأداة</Text>
+		</VisitDDUHomeMenuItem>
+		<VisitSVNMenuItem>
+			<Text>زيارة موقع SVN/Github</Text>
+		</VisitSVNMenuItem>
+		<VisitGuru3DNvidiaMenuItem>
+			<Text>زيارة Guru3d NVIDIA Thread</Text>
+		</VisitGuru3DNvidiaMenuItem>
+		<VisitGuru3DAMDMenuItem>
+			<Text>زيارة Guru3d AMD Thread</Text>
+		</VisitGuru3DAMDMenuItem>
+		<VisitGeforceMenuItem>
+			<Text>زيارة Geforce Thread</Text>
+		</VisitGeforceMenuItem>
+
+		<Messages>
+			<Text1>يوجـد تحديث جديـد ! ؛ هـل تريد زيارة موقع الأداة الآن ؟</Text1>
+			<Text2>الاصدارات القديمــة لهذه الأداة دعمها محدود ؛ لذلك قم بتحديث الأداة لآخر اصدار قبل تبليغنـا بأيـة مشاكل أو اخطاء.</Text2>
+			<Text3>أنت لا تستخدم هذه الاداة مع كامل الصلاحيات . سيتم ايقاف الأداة الآن.</Text3>
+			<Text4>لم يتم ايجاد ddudr ؛ الرجاء الرجوع للتقريـر لمعرفة السبب.</Text4>
+			<Text5>هذه الأداة تقــوم بتعديل الريجستــري بشكل كبيـر . الأداة ستقوم بمحاولة انشاء نقطة استعادة للنظام تلقائيا ( الوضـع الطبيعي فقط )</Text5>
+			<Text6>حدثت مشكلة في أحد دوال البرنامج ؛ الرجاء ارسال التقارير للمطور</Text6>
+			<Text7>الأداة اكتشفت انك تسخدم الان حاسب محمول يحتوي على كرتين مدمجين أحدهما من AMD . الأداة حاليـا ليست متوافقة بشكل كامل لمعالجة هذه الحالة ؛ استخدم الاداة على مسؤوليتك فقط.</Text7>
+			<Text8>أنت الآن لست في الوضع الآمن للنظام ... للحصول على أفضل النتائج وبدون اخطاء ؛ ينصـح بإعادة التشغيل والدخول للوضع الآمن</Text8>
+			<Text9>الأداة قامت بتغيير الاعدادات التي تعرقل عملية تحميل التعريفات من الويندوز ابديت ؛ يمكنك ارجاعه للوضع الافتراضي بعد تنصيب التعريف الجديد</Text9>
+			<Text10>تـم الانتهاء من عمليـة التنظيف بالكامل ! هل تريد الخروج من الأداة الآن ؟</Text10>
+			<Text11>تم الانتهاء!</Text11>
+			<Text12>أنت الان لست في الوضع الآمن للنظام . يستحسـن ان تقوم بإعادة التشغيل والدخول للوضع الآمن ؛ وذلك لتجنب أية اخطاء قد تحدث</Text12>
+			<Text13>في حال حدوث شاشة زرقاء  Troubleshoot -&gt; advanced options -&gt; startup Settings.</Text13>
+			<Text14>يجب عمل اعادة تشغيل للنظام قبل اعادة استخدام هذه الآداة مجددا</Text14>
+			<Text15>No change was made. Windows Device Installation Settings were already set to Default.</Text15>
+		</Messages>
+
+		<UpdateLog>
+			<Text1>Executing Driver Store cleanUP(Delete OEM step)...</Text1>
+			<Text2>Cleaning Directory</Text2>
+			<Text3>Cleaning known Regkeys... May take a minute or two.</Text3>
+			<Text4>Cleaning UpdatusUser users account if present.</Text4>
+			<Text5>Cleaning Directory</Text5>
+			<Text6>Starting Registry CleanUP</Text6>
+			<Text7>Finished cleaning Registry</Text7>
+			<Text8>Starting the removal of nVidia Optimus UpperFilter if present.</Text8>
+			<Text9>Scanning for new device...</Text9>
+			<Text10>Clean uninstall completed!</Text10>
+			<Text11>DDU Version</Text11>
+			<Text12>GPU #</Text12>
+			<Text13>Detected</Text13>
+			<Text14>GPU DeviceId</Text14>
+			<Text15>Detected Driver(s) Version(s)</Text15>
+			<Text16>INF</Text16>
+			<Text17>INF Section</Text17>
+			<Text18>GPU not Correctly Installed</Text18>
+			<Text19>Deleting some specials folders, it may take some times...</Text19>
+			<Text20>CleanUP started...</Text20>
+			<Text21>Uninstalling</Text21>
+			<Text22>driver</Text22>
+			<Text23>Executing ddudr Remove , Please wait(can take a few minutes)</Text23>
+			<Text24>GPU(s) Removed from Device Manager.</Text24>
+			<Text25>Executing DDUDR Remove Audio controller.</Text25>
+			<Text26>HD audio adapters Removed !</Text26>
+			<Text27>3D Vision USB Adapter Removed from Device Manager.</Text27>
+			<Text28>Monitors and Hidden monitors removed !</Text28>
+			<Text29>ddudr Remove complete</Text29>
+			<Text30>Starting S-1-5-xx region cleanUP</Text30>
+			<Text31>End of S-1-5-xx region cleanUP</Text31>
+			<Text32>Begin Classesroot ,installer\products cleanup</Text32>
+			<Text33>End Classesroot ,installer\products cleanup</Text33>
+			<Text34>Start localmachine ,installer\products cleanup</Text34>
+			<Text35>End localmachine ,installer\products cleanup</Text35>
+			<Text36>Start currentuser ,installer\products cleanup</Text36>
+			<Text37>End currentuser ,installer\products cleanup</Text37>
+			<Text38>Cleaning process/services...</Text38>
+			<Text39>Process/Services CleanUP Complete</Text39>
+			<Text40>Deleted.</Text40>
+			<Text41>Value removed.</Text41>
+			<Text42>File Deleted.</Text42>
+		</UpdateLog>
+	</frmMain>
+
+	<frmOptions Text="الخيارات">
+		<btnClose>
+			<Text>خروج</Text>
+		</btnClose>
+		<lblOffer>
+			<Text>اظهار قائمة آخر العروض من الشركاء</Text>
+		</lblOffer>
+		<lblNvidiaspecific>
+			<Text>NVIDIA اعدادات متقدمة لكروت</Text>
+		</lblNvidiaspecific>
+		<lblAmdspecific>
+			<Text>AMD اعدادات متقدمة لكروت</Text>
+		</lblAmdspecific>
+		<lblGeneral>
+			<Text>خيارات عامة</Text>
+		</lblGeneral>
+		<lblRemNvidiaDirs>
+			<Text>حذف مجلد "C:\nVidia" ? (لا ينصح بهذا الاجراء)</Text>
+		</lblRemNvidiaDirs>
+		<lblSaveLogs>
+			<Text>حفظ تقرير مفصل للرجوع اليه ( ينصح به بشــدة )</Text>
+		</lblSaveLogs>
+		<lblRemPhysX>
+			<Text>حـذف التجسيد الفيزيائي PhysX</Text>
+		</lblRemPhysX>
+		<lblRem3DtvPlay>
+			<Text>حذف|3DTV Play</Text>
+		</lblRem3DtvPlay>
+		<lblCreateRestorePoint>
+			<Text>عمـل نقطة استعادة للنظام ( اذا كانت مفعلة )</Text>
+		</lblCreateRestorePoint>
+		<lblRemMonitors>
+			<Text>حـذف اعدادات الشاشة الحالية المتصلة أو الغير متصلة ( ينصـح بـه )</Text>
+		</lblRemMonitors>
+		<lblRemAMDAudioBus>
+			<Text>حـذف AMD Audio Bus</Text>
+		</lblRemAMDAudioBus>
+		<lblRemAMDDirs>
+			<Text>حذف مجلد  "C:\AMD" ( لا ينصـح بهذا الاجراء )</Text>
+		</lblRemAMDDirs>
+		<lblRemAMDKMPFD>
+			<Text>حذف تعريف/فلتر AMDKMPFD ( ينصح بعمل نسخ احتياطي في حال استخدام لوحة تحتوي على شريحة من AMD )</Text>
+		</lblRemAMDKMPFD>
+		<lblShowSafeModeMsg>
+			<Text>اظهار خيار الدخول للوضع الآمن عند التشغيل</Text>
+		</lblShowSafeModeMsg>
+		<lblUseRoamingCfg>
+			<Text>تخزين الاعدادات في مجلد roaming folder</Text>
+		</lblUseRoamingCfg>
+		<lblCheckUpdates>
+			<Text>التأكد من وجود تحديث جديد للأداة عند التشغيل</Text>
+		</lblCheckUpdates>
+		<lblRemGFE>
+			<Text>حذف Geforce Experience (GFE)</Text>
+		</lblRemGFE>
+		<lblRemCrimsonCache>
+			<Text>حذف مجلد الكاش AMD Crimson Shader</Text>
+			<Tooltip>
+				Recommended if there is graphicals anomaly (speed or visual corruption) caused by a corrupted shader cache data.
+				Also recommended if you are switching to another brand like nVidia.
+			</Tooltip>
+		</lblRemCrimsonCache>
+		<lblVulkan>
+			<Text>Remove Vulkan Runtime</Text>
+			<Tooltip>Not Recommended If You Have 2 Differents GPUs Capable Of Using The Vulkan API.</Tooltip>
+		</lblVulkan>
+		<lblUseSetupAPI>
+			<Text>Use SetupAPI *Experimental*</Text>
+			<Tooltip>Use SetupAPI instead of the external tool DDUDR (DEVCON)</Tooltip>
+		</lblUseSetupAPI>
+	</frmOptions>
+
+	<frmLaunch Text="خيارات الدخول">
+		<btnAccept>
+			<Text>دخول</Text>
+			<Text2>
+				اعادة التشغيل
+				للوضع الآمن
+			</Text2>
+		</btnAccept>
+		<btnClose>
+			<Text>خروج</Text>
+		</btnClose>
+		<lblLaunchOption>
+			<Text>خيارات الدخول</Text>
+		</lblLaunchOption>
+		<lblNotSafeMode>
+			<Text>
+				أنت حاليا تستخدم الوضع الاعتيادي للنظام.ينصح
+				بإعادة التشغيل والدخول للوضع الآمن لتجنب الأخطاء.
+			</Text>
+		</lblNotSafeMode>
+		<lblWinPasswordWarn>
+			<Text>
+				ملاحظة مهمة لمستخدمي ويندوز 8/8.1/10
+				مفتاح نظام التشغيل مطـلوب! (المفتاح لا يعمل في الوضع الآمن)
+				أغلق الاداة في حال كنت لا تمتلك المفتاح.
+			</Text>
+		</lblWinPasswordWarn>
+		<cbBootOption>
+			<Item1>عادي</Item1>
+			<Item2>الوضع الآمن-ينصح به بشدة</Item2>
+			<Item3>الوضع الآمن بدون شبكة</Item3>
+		</cbBootOption>
+		<Messages>
+			<Text1>DDU closed programs known to interfere (like MSI Afterburner and RTSS).</Text1>
+		</Messages>
+	</frmLaunch>
+
+	<frmLog Text="تقرير مفصل">
+		<btnClose>
+			<Text>خروج</Text>
+		</btnClose>
+		<btnOpenLog>
+			<Text>عرض التقرير</Text>
+		</btnOpenLog>
+
+		<optionsMenuItem>
+			<Text>الخيارات</Text>
+		</optionsMenuItem>
+		<copyMenuItem>
+			<Text>تفعيل ميزة النسخ</Text>
+		</copyMenuItem>
+
+		<filtersMenuItem>
+			<Text>فلترة</Text>
+		</filtersMenuItem>
+		<eventsMenuItem>
+			<Text>عرض الاحداث</Text>
+		</eventsMenuItem>
+		<warningsMenuItem>
+			<Text>عرض التحذيرات</Text>
+		</warningsMenuItem>
+		<errorsMenuItem>
+			<Text>عرض الاخطاء</Text>
+		</errorsMenuItem>
+	</frmLog>
+
+	<frmSystemRestore Text="استعادة النظام">
+		<lblSystemRestore>
+			<Text>انشاء نقطة استعادة للنظام</Text>
+		</lblSystemRestore>
+	</frmSystemRestore>
+
+	<frmAbout Text="حول">
+		<btnClose>
+			<Text>خروج</Text>
+		</btnClose>
+		<btnAbout>
+			<Text>حول</Text>
+		</btnAbout>
+		<btnTos>
+			<Text>شروط الخدمة (ToS)</Text>
+		</btnTos>
+		<btnTranslators>
+			<Text>المترجمون</Text>
+		</btnTranslators>
+		<lblTranslators>
+			<Text>جزيل الشكر لكل من ساهم في ترجمة هذه الاداة</Text>
+		</lblTranslators>
+	</frmAbout>
+
+	<Misc>
+		<About>
+			<Text>
+				Display Driver Uninstaller (DDU) / Cleaner made for Display (GPU) Drivers.(NVIDIA/AMD)
+
+				وظيفة هذه الأداة تكمن في الغاء تثبيت تعريف الكرت الرسومي من إدارة الأجهــزة ؛ وأيضا حذف جميع الملفات المتعلقة بالتعريف الموجودة داخل النظام التشغيلي
+				بالإضافة إلى ايقاف الخدمات الخاصة بالتعريف سواء كان الكرت من
+				NVIDIA أو AMD .
+
+				الهدف من هذه الأداة هو تنظيف النظام نهائيا من مشغل الكرت الرسومي. وكأن النظام قد تم تنصيبه للتو
+
+				هذه الأداة مشابهة لأداة درايفر سويبر* لكن تحتوي على الخصائص الاضافية التي تم ذكرها سلفا
+
+				في حال ظهرت لك مشاكل أثناء تنصيب التعريفات القديمة أو الجديدة ؛ الرجاء إبلاغنا بها لكي نقوم بحلها في الاإصدارات الجديدة
+
+
+				طريقة استخدام الاداة :
+
+				-هذه الأداة يمكن ان تستخدمها في الوضع الطبيعي لنظام التشغيل ؛ لكن يفضل استخدامها في الوضع الآمن
+
+				- نحن نرحب بالآراء والمقترحات الجديدة ؛ الرجاء ابلاغنا في حال كان لديك ملاحظة
+
+				- دائما احتفظ بنسخة احتياطية للنظام أو نقطة استعادة ؛ تحسبا لأية مشاكل قد تظهر بعد الاستخدام
+
+				-اذا واجهت مشاكل في التعريف الكرت الخاص بك ؛ وبعد استخدام هذه الاداة تم حل المشكلة؛ الرجاء مشاركتنا
+				بتجربتك وأية اقتراحات تود اطلاعنا عليها
+
+				الرجاء الانتباه بأن كل من
+				NVIDIA , AMD , Microsoft
+				غير مسؤولة نهائيا عن أية اضرار قد تلحق بجهازك جراء استخدام هذه الاداة أو من مصمم الاداة
+				-------------------------------
+
+				هذه الاداة من برمجة Wagnard.
+
+				بالاشتراك مع: Shady757
+
+				الاختبار : Dellon132
+
+				تصميم الشعار : juanchacin
+
+				الترجمة للعربية: هاشم ورور / الاردن-اربد
+
+				الشكر الجزيل لـ
+				Jackalito
+				لتبرعه ببطاقة
+				AMD 7850
+				شكر خاص لـ
+				Helge Klein (http://helgeklein.com/setacl/) "SetAcl"
+				لتصريحه لنا باستخدم برنامجه ودمجه مع هذه الاداة
+
+				جزيل الشكر لكل من ساهم في تجربة البرنامج ؛ وهم
+				Gamer1291 (optimus), Octopuss (Amd Enduro) , nedooo` (took time debugging with me)
+				Extraordinary (Testing a bug fix)
+
+				شكرا لكل من جرب هذه الاداة وعرض جهازه للاخطار في سبيل نجاحها (شكر خاص لـ Dellon132)
+
+				هذه الاداة ؛ مبتكرها وكل الاشخاص الذين ساهموا مع المبرمج  ليس لهم علاقة مع برنامج درايفر سويبر أو حتى مبتكره
+			</Text>
+		</About>
+		<Tos>
+			<Text>
+				Display Driver Uninstaller ("DDU") اتفاقيـة الترخيص
+
+				أنت الان تعتبر مستخدم لهذه الاداة طالما تستخدم البرمجيات المتعلقة بها. لذلك فإن هذه الاتفاقيـة سارية المفعول عند استخدام هذا البرنامج لحذف تعريفات جهازك.
+
+				باستخدامك لهذه الأداة أنت توافق بعدم اتهام مبتكرها أو اي شخص ساهم في هذه الاداة في حال حدوث أية اضرار أو اخطاء لجهازك.
+
+				عند استخدامك لهذه الاداة فأنت تقر بأن كلا من  NVIDIA ("NVIDIA, GeForce")  و/أو  Advanced Micro Devices ("AMD, Radeon") ليس لها/لهما علاقة بهذه الاداة ؛ أو مع مبرمجها وكل من ساهم في عملها بجميع الأحوال.
+			</Text>
+		</Tos>
+	</Misc>
+
+	<LanguageTranslators>
+		<Translator>
+			<User></User>
+			<Details></Details>
+			<LastUpdate></LastUpdate>
+		</Translator>
+	</LanguageTranslators>
+
+</DisplayDriverUninstaller>
