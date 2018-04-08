@@ -1,26 +1,3 @@
-﻿
-/*
- * pool_address    - Pool address should be in the form "pool.supportxmr.com:3333". Only stratum pools are supported.
- * wallet_address  - Your wallet, or pool login.
- * pool_password   - Can be empty in most cases or "x".
- * use_nicehash    - Limit the nonce to 3 bytes as required by nicehash.
- * use_tls         - This option will make us connect using Transport Layer Security.
- * tls_fingerprint - Server's SHA256 fingerprint. If this string is non-empty then we will check the server's cert against it.
- * pool_weight     - Pool weight is a number telling the miner how important the pool is. Miner will mine mostly at the pool 
- *                   with the highest weight, unless the pool fails. Weight must be an integer larger than 0.
- *
- * We feature pools up to 1MH/s. For a more complete list see M5M400's pool list at www.moneropools.com
- */
-"pool_list" :
-[
-	{"pool_address" : "pool.intense.hashvault.pro:7777", "wallet_address" : "iz4cpQFUdv2afhbqKwZPDLh1Z7dC8iSrC28vot5yEaffLf43kdexEVWQuusT7ikhJYCN5CJweXZhf7sz6yQFL1zo1d6V64yyd", "pool_password" : "vegas:saren@wtako.net", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
-],
-
-/*
- * currency to mine
- * allowed values: 'monero' or 'aeon'
- */
-"currency" : "monero",
 
 /*
  * Network timeouts.
@@ -64,7 +41,7 @@
  * h_print_time - How often, in seconds, should we print a hashrate report if verbose_level is set to 4.
  *                This option has no effect if verbose_level is not 4.
  */
-"h_print_time" : 60,
+"h_print_time" : 30,
 
 /*
  * Manual hardware AES override

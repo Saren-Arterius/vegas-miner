@@ -10,11 +10,11 @@ import logging
 CHECK_URL = 'http://127.0.0.1:8080/h'
 SCRIPT_PATH = realpath(dirname(__file__))
 SCREENSHOTS_PATH = join(SCRIPT_PATH, 'screenshots')
-HR_THRESHOLD = 15500
+HR_THRESHOLD = 11000
 ERROR_COUNT_THRESHOLD = 5
 DROP_COUNT_THRESHOLD = 20
 
-WAIT_DELAY_SECOND = 200
+WAIT_DELAY_SECOND = 120
 CHECK_INTERVAL_SECOND = 5
 
 logging.basicConfig(level=logging.DEBUG,
@@ -24,14 +24,16 @@ logging.basicConfig(level=logging.DEBUG,
                     filemode='w')
 console = logging.StreamHandler()
 console.setLevel(logging.INFO)
-formatter = logging.Formatter('%(asctime)s %(name)-12s %(levelname)-8s %(message)s')
+formatter = logging.Formatter(
+    '%(asctime)s %(name)-12s %(levelname)-8s %(message)s')
 console.setFormatter(formatter)
 logging.getLogger('').addHandler(console)
+
 
 def take_screenshot():
     logger = logging.getLogger('sentinel.screenshot')
     logger.info('Taking screenshot')
-    for i in range(10):
+    for i in range(3):
         try:
             im = ImageGrab.grab()
             im.save(join(SCREENSHOTS_PATH, '{}.png'.format(round(time()))))
@@ -53,7 +55,7 @@ def check_health():
         try:
             doc = pq(urlopen(CHECK_URL, timeout=5).read().decode())
             hr60s = doc.find(
-                'body > div > div.data > table > tr:nth-child(18) > td:nth-child(3)').text().strip()
+                '.data > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(10) > td:nth-child(3)').text().strip()
             hr60s = float(hr60s)
             logger.info('60s hash rate = {}/s'.format(hr60s))
             logger.debug(doc.find('body > div > div.data > table').html())
@@ -82,7 +84,8 @@ def restart_miner():
     logger = logging.getLogger('sentinel.miner-restarter')
     call(['taskkill', '/IM', 'xmr-stak.exe', '/T', '/F'])
     proc = Popen([join(SCRIPT_PATH, 'start.bat')])
-    logger.info('Waiting {}s for miner to initialize...'.format(WAIT_DELAY_SECOND))
+    logger.info('Waiting {}s for miner to initialize...'.format(
+        WAIT_DELAY_SECOND))
     sleep(WAIT_DELAY_SECOND)
     """
     epl = 0
