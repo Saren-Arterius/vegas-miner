@@ -30,56 +30,96 @@
   // gpu: gfx901 memory:3920
   // compute units: 64
   { "index" : 0,
-    "intensity" : 1984, "worksize" : 8,
+    "intensity" : 1932, "worksize" : 8,
+    "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2,
+    "comp_mode" : true
+  },
+  { "index" : 0,
+    "intensity" : 1932, "worksize" : 8,
     "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2,
     "comp_mode" : true
   },
   // gpu: gfx901 memory:3920
   // compute units: 64
   { "index" : 1,
-    "intensity" : 1984, "worksize" : 8,
+    "intensity" : 1932, "worksize" : 8,
+    "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2,
+    "comp_mode" : true
+  },
+  { "index" : 1,
+    "intensity" : 1932, "worksize" : 8,
     "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2,
     "comp_mode" : true
   },
   // gpu: gfx901 memory:3920
   // compute units: 64
   { "index" : 2,
-    "intensity" : 1984, "worksize" : 8,
+    "intensity" : 1932, "worksize" : 8,
+    "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2,
+    "comp_mode" : true
+  },
+  { "index" : 2,
+    "intensity" : 1932, "worksize" : 8,
     "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2,
     "comp_mode" : true
   },
   // gpu: gfx901 memory:3920
   // compute units: 64
   { "index" : 3,
-    "intensity" : 1984, "worksize" : 8,
+    "intensity" : 1932, "worksize" : 8,
+    "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2,
+    "comp_mode" : true
+  },
+  { "index" : 3,
+    "intensity" : 1932, "worksize" : 8,
     "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2,
     "comp_mode" : true
   },
   // gpu: gfx901 memory:3920
   // compute units: 64
   { "index" : 4,
-    "intensity" : 1984, "worksize" : 8,
+    "intensity" : 1932, "worksize" : 8,
+    "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2,
+    "comp_mode" : true
+  },
+  { "index" : 4,
+    "intensity" : 1932, "worksize" : 8,
     "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2,
     "comp_mode" : true
   },
   // gpu: gfx901 memory:3920
   // compute units: 64
   { "index" : 5,
-    "intensity" : 1984, "worksize" : 8,
+    "intensity" : 1932, "worksize" : 8,
+    "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2,
+    "comp_mode" : true 
+  },
+  { "index" : 5,
+    "intensity" : 1932, "worksize" : 8,
     "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2,
     "comp_mode" : true
   },
   // gpu: gfx901 memory:3920
   // compute units: 64
   { "index" : 6,
-    "intensity" : 1984, "worksize" : 8,
+    "intensity" : 1932, "worksize" : 8,
+    "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2,
+    "comp_mode" : true
+  },
+  { "index" : 6,
+    "intensity" : 1932, "worksize" : 8,
     "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2,
     "comp_mode" : true
   },
   // gpu: gfx901 memory:3920
   // compute units: 64
   { "index" : 7,
-    "intensity" : 1984, "worksize" : 8,
+    "intensity" : 1932, "worksize" : 8,
+    "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2,
+    "comp_mode" : true
+  },
+  { "index" : 7,
+    "intensity" : 1932, "worksize" : 8,
     "affine_to_cpu" : false, "strided_index" : 1, "mem_chunk" : 2,
     "comp_mode" : true
   },

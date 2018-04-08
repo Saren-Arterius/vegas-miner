@@ -55,7 +55,7 @@ def check_health():
         try:
             doc = pq(urlopen(CHECK_URL, timeout=5).read().decode())
             hr60s = doc.find(
-                '.data > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(10) > td:nth-child(3)').text().strip()
+                'body > div > div.data > table > tr:nth-child(18) > td:nth-child(3)').text().strip()
             hr60s = float(hr60s)
             logger.info('60s hash rate = {}/s'.format(hr60s))
             logger.debug(doc.find('body > div > div.data > table').html())
